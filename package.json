@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "script": {
-    "start": "node script.js"
+  "scripts": {
+    "start": "node script.js",
   },
   "dependencies": {
     "body-parser": "^1.19.0",
