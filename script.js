@@ -18,7 +18,7 @@ try {
 } catch (error) {
   console.log(`Mongoose connection error-> ${error}`);
 }
-app.use("/", express.static( "assets"));
+app.use("/", express.static("assets"));
 
 app.use(bodyParser.json());
 
