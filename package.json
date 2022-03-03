@@ -2,7 +2,7 @@
   "name": "node-mongodb",
   "type": "module",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "script.js",
   "license": "MIT",
   "scripts": {
     "start": "node script.js",
