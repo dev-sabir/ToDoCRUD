@@ -1,12 +1,12 @@
 import express from "express";
-import path from "path";
+//import path from "path";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import Todo from "./models/todo.js";
 
 dotenv.config();
-const __dirname = path.resolve();
+//const __dirname = path.resolve();
 const app = express();
 const CONNECTION_URL = process.env.CONNECTION_URL;
 const PORT = process.env.PORT;
