@@ -69,6 +69,6 @@ app.get("/api/get", async (req, res) => {
   res.json(records);
 });
 
-app.listen(PORT, "127.0.0.1", () => {
+app.listen(PORT, () => {
   console.log(`Server is running on PORT ${PORT}`);
 });
